@@ -19,3 +19,4 @@ _____
 1. There are servers that are running locally in our machines.  
 2. There are remote servers deployed in the cloud or else where.  
 
+https://github.com/modelcontextprotocol/quickstart-resources
