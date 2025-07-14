@@ -20,3 +20,13 @@ _____
 2. There are remote servers deployed in the cloud or else where.  
 
 https://github.com/modelcontextprotocol/quickstart-resources
+
+https://docs.cursor.com/context/mcp
+
+![image](Images/mcp.png)
+
+![image](Images/mcpprotocol.png)
+
+![image](Images/mcpall.png). 
+
+Community built MCP Servers : https://mcp.so/?tab=latest
