@@ -30,3 +30,29 @@ https://docs.cursor.com/context/mcp
 ![image](Images/mcpall.png). 
 
 Community built MCP Servers : https://mcp.so/?tab=latest
+
+What does MCP Server exposes : 
+![image](Images/mcpexposes.png).  
+
+
+MCP Servers can run via : 
+1. Stdio : Standard input output.  
+2. SSE : Server Sent Event.  
+3. Also as Docker Containers. 
+
+Any application can be both an MCP Server & Client.   
+
+### MCP INSPECTOR.  
+It's an interactive developer tool for testing and debugging MCP Servers. Also seeing the tools etc.  
+
+https://modelcontextprotocol.io/docs/tools/inspector   
+
+https://github.com/modelcontextprotocol/inspector
+
+### LLM.txt  
+
+https://langchain-ai.github.io/langgraph/llms-txt-overview/
+
+Cursor Directory
+
+https://cursor.directory/rules/python
