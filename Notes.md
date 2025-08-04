@@ -32,4 +32,22 @@ The components are :
 - Resources 
 - Prompts 
 
-![images](Images/mcpcomponents.png)
+![images](Images/mcpcomponents.png).  
+
+What is a Protocol ?   
+
+A protocol is a set of rules or instructions that tells different systems how to talk to each other or work together.
+
+Open Specification 
+  - Publicly Accessible, Vendor Neutral. 
+
+Client-Server Architecture 
+  - Ensures consistent implementation. 
+
+Reduced Duplication
+  - Eliminates redundant integration efforts.  
+
+Ecosystem Development
+  - Enables growth around a common standard. 
+
+![images](Images/mcpbenefits.png)
