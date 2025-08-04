@@ -16,3 +16,20 @@ A model in AI is like a smart brain trained to do a specific task, such as under
 
 It learns patterns from lots of data and then uses that knowledge to answer questions or solve problems.
 
+LLL = a specific kind of model for understanding/generating language.
+
+
+What is a Context ?    
+
+Context means the situation, background or surrounding information that helps you understand the meaning of something. 
+
+Contet forms part of the prompt sent to the AI model. It provides essential background information. 
+
+MCP standardize how AI models interact with external tools and data sources by defining specific components.  
+
+The components are : 
+- Tools
+- Resources 
+- Prompts 
+
+![images](Images/mcpcomponents.png)
