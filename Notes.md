@@ -1,3 +1,4 @@
+## MCP INTRODUCTION
 
 MCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications.
 
@@ -51,3 +52,11 @@ Ecosystem Development
   - Enables growth around a common standard. 
 
 ![images](Images/mcpbenefits.png)
+
+
+https://github.com/orgs/modelcontextprotocol/repositories 
+
+https://github.com/modelcontextprotocol. 
+
+## MCP ARCHITECTURE 
+
