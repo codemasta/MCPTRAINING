@@ -148,3 +148,15 @@ ______
  - Enable Communication : Handles bidirectional data flow between clients and servers.
  - Standardize Interface : Provides consistence API for implementing custom transports.  
  - Ensure Flexibility : Maintains transport agnostic design for maximum adaptability. 
+
+Transport Mechanism - STDIO
+______
+ The stdio transport enables communication through standard input and output streams. 
+
+ Use stdio when: 
+  - Building command-line tools e.g. cli tools 
+  - Implementing local integrations e.g. integrating AI models into desktop app i.e summarization features
+  - Needing simple process communication e.g. data processing, calculator app
+  - Working with shell scripts e.g. task automation i.e. processes text files and create summarization on it. 
+
+![images](Images/mcpstdio.png)
