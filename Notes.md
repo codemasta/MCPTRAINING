@@ -160,3 +160,21 @@ ______
   - Working with shell scripts e.g. task automation i.e. processes text files and create summarization on it. 
 
 ![images](Images/mcpstdio.png)
+
+Transport Mechanism - SSE
+______
+
+This is particularly suited for scenarios where the server needs to push updates to the client. 
+
+SSE transport enables server-to-client streaming with HTTP POST requests for client-to-server communication.  
+
+Use SSE when : 
+
+ - Only server-to-client streaming is needed : i.e. an AI assistant that provides real-time stock updates. So the server is constantly sending the stock price updates. So the server streams the stock price updates to the client using SSE while the client receives the stock price updates without needing to pool the server. 
+ - Working with restricted networks : SSE operates over standard HTTP making it suitable for environments with strict network policy that may block non-HTTP protocol i.e. in a corporate settings. 
+ - Implementing simple updates : i.e. AI powered breaking news aggregates
+
+![images](Images/mcpsse.png)
+
+Transport Mechanism - Streamable HTTP
+_____
