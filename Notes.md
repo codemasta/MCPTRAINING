@@ -24,7 +24,7 @@ What is a Context ?
 
 Context means the situation, background or surrounding information that helps you understand the meaning of something. 
 
-Contet forms part of the prompt sent to the AI model. It provides essential background information. 
+Context forms part of the prompt sent to the AI model. It provides essential background information. 
 
 MCP standardize how AI models interact with external tools and data sources by defining specific components.  
 
