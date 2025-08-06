@@ -187,7 +187,7 @@ It replaces the SSE approach. It uses a single endpoint unlike the SSE that uses
  - Secure Exchange : Enables protected two-way data flow. Maintains privacy while facilitating powerful integrations. 
  - Enables protected two-way data flow. Maintains privacy while facilitating powerful integrations.
  - Real-time Capabilities : Delivers streaming updates instantly. Supports dynamic AI interactions without delay.
- - Universal Compability : Works with varioous AI applications. Functions in chatbots, IDE assistants and more.   
+ - Universal Compability : Works with various AI applications. Functions in chatbots, IDE assistants and more.   
 
   *It uses a single endpoint to handle both the HTTP Post/Get.*
 
