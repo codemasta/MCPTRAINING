@@ -178,3 +178,17 @@ Use SSE when :
 
 Transport Mechanism - Streamable HTTP
 _____
+
+Streamable HTP is the core transport mechanism in MCP since March 2025. It enables two-way connections between data sources and AI tools.
+
+It replaces the SSE approach. It uses a single endpoint unlike the SSE that uses 2 endpoints for communication. 
+
+ - Standardized Protocol : Provides consistent connection framework across applications. Simplifies development with unified approach. 
+ - Secure Exchange : Enables protected two-way data flow. Maintains privacy while facilitating powerful integrations. 
+ - Enables protected two-way data flow. Maintains privacy while facilitating powerful integrations.
+ - Real-time Capabilities : Delivers streaming updates instantly. Supports dynamic AI interactions without delay.
+ - Universal Compability : Works with varioous AI applications. Functions in chatbots, IDE assistants and more.   
+
+  *It uses a single endpoint to handle both the HTTP Post/Get.*
+
+ *The client sends the JSON RPC request or batch via POST indicating support for application and event stream in the accept header so if the server supports streaming or needs to send a notification request back it responds to the GET request using SSE event over that same endpoint. This means it uses same endpoint as compared to SSE*
