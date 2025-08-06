@@ -83,12 +83,13 @@ _______
 Key Features of JSON-RPC 2.0
 ______
 
- - Uses JSON as the data format for both request and response.  
- - Supports requests, notifications and batch requests.  
- - Every request includes a method name, optional params and an ID
- - Reponses contain the result or an error object.
+   - Uses JSON as the data format for both request and response.  
+   - Supports requests, notifications and batch requests.  
+   - Every request includes a method name, optional params and an ID
+   - Reponses contain the result or an error object.
 
 Request
+
 ```json
  {
    "jsonrpc": "2.0",
@@ -100,6 +101,7 @@ Request
 
 
 Response
+
 ```json
  {
    "jsonrpc": "2.0",
@@ -107,3 +109,42 @@ Response
    "id" : 1
  } 
 ```
+
+SAMPLE 2
+
+Request
+
+```json
+ {
+   "jsonrpc": "2.0",
+    "id" : 1,
+   "method" : "tools/call",
+   "params" : {
+    "name":"weather",
+    "arguments" : {
+      "location" : "San Francisco"
+    }
+   }
+ } 
+```
+
+Response
+
+```json
+ {
+   "jsonrpc": "2.0",
+   "id" : 1,
+   "result":{
+    "temperature" : 62,
+    "conditions" : "Partly Cloudy"
+   }
+ } 
+```
+
+Overview of MCP Transport Layer
+______
+
+ - Convert Messages : Transforms MCP messages to JSON-RPC format for transmission.  
+ - Enable Communication : Handles bidirectional data flow between clients and servers.
+ - Standardize Interface : Provides consistence API for implementing custom transports.  
+ - Ensure Flexibility : Maintains transport agnostic design for maximum adaptability. 
