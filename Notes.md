@@ -192,3 +192,56 @@ It replaces the SSE approach. It uses a single endpoint unlike the SSE that uses
   *It uses a single endpoint to handle both the HTTP Post/Get.*
 
  *The client sends the JSON RPC request or batch via POST indicating support for application and event stream in the accept header so if the server supports streaming or needs to send a notification request back it responds to the GET request using SSE event over that same endpoint. This means it uses same endpoint as compared to SSE*
+
+
+>> https://github.com/modelcontextprotocol/servers 
+
+Then select the *fileSystem* Server which implement MCP for FileSystem operations.
+
+https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem 
+
+Then copy the npx version of the MCP config 
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/username/Desktop",
+        "/path/to/other/allowed/dir"
+      ]
+    }
+  }
+}
+```
+
+Then go to Claude Desktop, settings then developer. 
+
+Let's write a simple MCP Server.  
+_____
+
+>> uv init [project name]  
+
+>> uv add "mcp[cli]"
+
+>> uv add FastMcp
+
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("Learning Info Server")
+
+@mcp.tool()
+def what_am_i_learning() -> str:
+    """Responds with what the user is learning."""
+    return "You are learning about MCP (Multi-Channel Processing)!"
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
+```
+
+MCP Inspector
+______
