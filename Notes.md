@@ -245,3 +245,16 @@ if __name__ == "__main__":
 
 MCP Inspector
 ______
+The MCP Inspector is an interactive developer tool essential for testing and debugging Model Context Protocol servers.
+
+MCP UI (default port 6274; customizable)
+
+Key Features
+_____
+
+- Server connection pane: Configure transport, command-line arguments, and environment variables.
+- Resources tab: View available resources, metadata (MIME types, descriptions), inspect content, and test subscriptions
+- Prompts tab: Browse prompt templates, adjust arguments, and execute them.
+- Tools tab : Explore available tools schemas, run them with custom input and inspect execution results.  
+
+The MCP Inspector is essentially a *Swiss-army-knife* (i.e. it solved many problems) UI for MCP Server development, providing visual tooling and live interaction so you don't have to build one-off test clients. 
